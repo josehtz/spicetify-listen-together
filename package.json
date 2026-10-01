@@ -1,0 +1,14 @@
+{
+  "name": "spicetify-listen-together",
+  "version": "1.0.0",
+  "description": "Salas de escucha P2P para Spotify - Sin servidores externos",
+  "scripts": {
+    "build": "esbuild src/peerjs-entry.js --bundle --minify --outfile=app/peerjs.bundle.js --format=iife",
+    "install-app": "powershell -ExecutionPolicy Bypass -File install.ps1"
+  },
+  "dependencies": {
+    "peerjs": "^1.5.4"
+  },
+  "keywords": ["spicetify", "spotify", "p2p", "listen-together", "webrtc"],
+  "license": "MIT"
+}

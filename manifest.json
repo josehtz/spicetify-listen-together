@@ -1,0 +1,13 @@
+{
+  "name": "Listen Together",
+  "description": "Crea salas P2P con un ID o link y escucha la misma canción sincronizada con amigos en tiempo real. Sin servidores de datos: PeerJS + WebRTC dentro de Spotify.",
+  "preview": "assets/preview.png",
+  "readme": "README.md",
+  "authors": [
+    {
+      "name": "josehtz",
+      "url": "https://github.com/josehtz"
+    }
+  ],
+  "tags": ["listen-together", "p2p", "party", "sync"]
+}
