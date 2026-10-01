@@ -133,16 +133,6 @@ node --check app\index.js
 | Los invitados no se sincronizan | Algunas redes bloquean WebRTC sin candidatos STUN. Prueba sin VPN o con otra red. |
 | Tras `spicetify apply` no aparece | Reinicia Spotify por completo (cerrar también de la bandeja). |
 
-## Publicación en el Spicetify Marketplace
-
-Para que aparezca en el Marketplace:
-
-1. El repositorio debe ser **público** en GitHub.
-2. Añade el tema `spicetify-apps` al repositorio.
-3. La raíz debe contener un `manifest.json` válido con `name`, `description`, `preview` (ruta a la imagen), `readme`, `authors` y `tags` (ya está incluido en este repo).
-4. Sigue la guía [Publishing to Marketplace](https://github.com/spicetify/marketplace/wiki/Publishing-to-Marketplace).
-5. Ten en cuenta que los custom apps, aunque se listan, se instalan manualmente copiando la carpeta correspondiente a `CustomApps`.
-
 ## Licencia
 
 [MIT](LICENSE)
